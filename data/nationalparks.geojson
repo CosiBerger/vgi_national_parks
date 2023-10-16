@@ -1,0 +1,170 @@
+const nationalparks ={
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Banff Nationalpark",
+        "country": "Kanada",
+        "established": 1885,
+        "visitors_per_year":4121062,
+        "img": "banff.jpeg",
+        "icon": "mountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-115.560216, 51.199136]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Yosemite Nationalpark",
+        "country": "USA",
+        "established": 1890,
+        "visitors_per_year":4009436,
+        "img": "yosemite.jpg",
+        "icon": "desert"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-119.538287,37.864671]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nationalpark Sächsische Schweiz",
+        "country": "Deutschland",
+        "established": 1990,
+        "visitors_per_year":1700000,
+        "img": "saechsische_schweiz.jpg",
+        "icon": "mountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [14.242599,50.911177]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nationalpark Gobi Gurvan Saikhan",
+        "country": "Mongolei",
+        "established": 1993,
+        "visitors_per_year":5000,
+        "img": "gobi.jpg",
+        "icon": "desert"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.520100, 43.660361]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Krüger Nationalpark",
+        "country": "Südafrika",
+        "established": 1898,
+        "visitors_per_year":1300000,
+        "img": "krueger.png",
+        "icon": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [31.551895, -23.987766]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Galápagos Nationalpark",
+        "country": "Ecuador",
+        "established": 1959,
+        "visitors_per_year":75000,
+        "img": "galapagos.jpg",
+        "icon": "mountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-90.345940, -0.615240]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Kakadu Nationalpark",
+        "country": "Australien",
+        "established": 1981,
+        "visitors_per_year":226000,
+        "img": "kakadu.jpg",
+        "icon": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [132.393755, -13.092366]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Tierra del Fuego Nationalpark",
+        "country": "Agentinien",
+        "established": 1960,
+        "visitors_per_year":"unbekannt",
+        "img": "tierra_del_fuego.jpg",
+        "icon": "mountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.554175, -54.843320]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Chitwan Nationalpark",
+        "country": "Nepal",
+        "established": 1973,
+        "visitors_per_year":190458,
+        "img": "chitwan.jpg",
+        "icon": "elephant"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.451850, 27.531995]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Nordost-Grönland-Nationalpark",
+        "country": "Grönland",
+        "established": 1974,
+        "visitors_per_year":"weniger als 500",
+        "img": "nordost_groenland.jpg",
+        "icon": "iceberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-29.971691, 75.997951]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Acadia Nationalpark",
+        "country": "USA",
+        "established": 1992,
+        "visitors_per_year":3537575,
+        "img": "arcadia.jpg",
+        "icon": "mountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-68.272785, 44.338697]
+      }
+    }
+  ]
+}
